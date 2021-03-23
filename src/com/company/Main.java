@@ -12,7 +12,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String readline = scanner.nextLine();
 
-        result = readline.split("[+,-,*,/]");
+        result = readline.split("[+,*,/,-]");
         if (!readline.contains(".") && !readline.contains(",")) {
             if (result.length == 2) {
                 //System.out.println("2");
